@@ -11,6 +11,8 @@ int count = 0;
 void setup(){
     size(800,800);
     background(0);
+    //ImageToHexColors IHC = new ImageToHexColors();
+    //IHC.main();
 }
 
 void draw(){
@@ -89,3 +91,14 @@ fff200,fff200,000000,000000,000000,000000,fff200,fff200
 String smileString = "fff200,fff200,fff200,fff200,fff200,fff200,fff200,fff200,fff200,fff200,000000,fff200,fff200,000000,fff200,fff200,fff200,fff200,000000,fff200,fff200,000000,fff200,fff200,fff200,fff200,000000,fff200,fff200,000000,fff200,fff200,000000,fff200,fff200,fff200,fff200,fff200,fff200,000000,000000,000000,fff200,fff200,fff200,fff200,000000,000000,fff200,000000,000000,fff200,fff200,000000,000000,fff200,fff200,fff200,000000,000000,000000,000000,fff200,fff200";
 
 ///  END OF SMILEY///////////////////////////
+
+
+
+
+public class pixelArt  {
+    String main(int totalPixels) {
+        String smileString = "fff200,fff200,fff200,fff200,fff200,fff200,fff200,fff200,fff200,fff200,000000,fff200,fff200,000000,fff200,fff200,fff200,fff200,000000,fff200,fff200,000000,fff200,fff200,fff200,fff200,000000,fff200,fff200,000000,fff200,fff200,000000,fff200,fff200,fff200,fff200,fff200,fff200,000000,000000,000000,fff200,fff200,fff200,fff200,000000,000000,fff200,000000,000000,fff200,fff200,000000,000000,fff200,fff200,fff200,000000,000000,000000,000000,fff200,fff200";
+    return smileString;
+    }
+
+}
